@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
     color: #666768;
     width: 100%;
-    max-width: 1440px;
 }
 
 *,
@@ -31,11 +30,37 @@ h1,h2,h3,h4,h5,h6 {
 
 /*Section*/
 
-.section {
-    min-height: 100%;
+/*Header*/
+
+.header{
+  width: 100%;
+  position: absolute;
 }
 
-/*Header*/
+.header__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+    background-image: url("./Img/Rectangle2.png");
+
+}
+
+.nav__link{
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color:white;
+}
+
+.btm__header{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Header*
 
 .header{
     width: 100%;
@@ -70,7 +95,7 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: none;
 }
 
-/*Buttom*/
+/*Buttom*
 
 .btm__header{
     position: relative;
@@ -95,7 +120,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
-/*Intro*/
+/*Intro*
 
 .intro{
     width: 100%;
@@ -199,7 +224,7 @@ h1,h2,h3,h4,h5,h6 {
     z-index: 2;
  }
 
-/*GroupCompany*/
+/*GroupCompany*
 
 .group__company{
     position: relative;
@@ -243,7 +268,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0 0 0 100px;
  }
 
- /*GroupCorses*/
+ /*GroupCorses*
 
 .grop__courses{
     position: relative;
@@ -320,7 +345,7 @@ h1,h2,h3,h4,h5,h6 {
     left: 0;
 }
 
-/*Gridgroup*/
+/*Gridgroup*
 
 .grid__table{
 
@@ -382,7 +407,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0 0 0 0;
 }
 
-/*Platform*/
+/*Platform*
 
 .platform__group{
     width: 100%;
@@ -432,7 +457,7 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto 16px 120px;
 }
 
-/*Support*/
+/*Support*
 
 .group__support{
     width: 100%;
@@ -482,8 +507,7 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto 16px;
 }
 
-/*Latest&Article*/
-
+/*Latest&Article*
 .group__latest__article{
     width: 100%;
     max-width: 1440px;
@@ -518,7 +542,7 @@ h1,h2,h3,h4,h5,h6 {
     z-index: 2;
 }
 
-/*LatterGroup*/
+/*LatterGroup*
 
 .group__letter{
     width: 100%;
@@ -550,7 +574,7 @@ h1,h2,h3,h4,h5,h6 {
     left: 690px;
 }
 
-/*Footer*/
+/*Footer*
 
 .footer{
     width: 100%;
