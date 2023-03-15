@@ -42,10 +42,7 @@ h1,h2,h3,h4,h5,h6 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px 0 20px;
-
-    background-image: url("./Img/Rectangle2.png");
-
+    padding: 10px 20px 0 20px;
 }
 
 .nav__link{
@@ -59,110 +56,68 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
 }
 
-
-/*Intro*
+/*Intro*/
 
 .intro{
-    width: 100%;
-    max-width: 1440px;
-    height: 100%;
-
-   
-    background: url("./Img/Rectangle2.png");
-    -webkit-background-size: cover;
+    background-image: url("./Img/Rectangle2.png");
     background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-.backgrount__intro{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+.intro__main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.txt__intro{
+    max-width: 660px;
+    padding: 200px 0 0 50px;
+    color: white;
+}
+
+.title__intro{
+    font-size: 60px;
+}
+
+.btm__intro{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 220px 0 0;
+}
+
+.btm__left {
+    vertical-align: top;
+    border: 1px solid #FF00C7;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+
+    background-color: #FF00C7;
+
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto ;
+}
+
+.btm__right {
+    vertical-align: top;
+
+    border: 1px solid #fff;
+    padding: 10px 24px 10px 24px;
+    border-radius: 15px;
+
+
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto ;
+
 }
 
 .img__intro{
     width: 100%;
-    max-width: 671px;
-    position: absolute;
-    top: 0;
-    left: 769px;
-    z-index: 2;
+    margin: 0 40px 30px 0;
 }
-
-.txt__intro{
-    position: relative;
-    z-index: 2;
-    color: #fff;
-}
-
-.title__intro{
- width: 660px;
-
- position: absolute;
- top: 200px;
- left: 125px;
-
- font-size: 60px;
- z-index: 2;
-}
-
-.text__intro{
-    width: 527px;
-
-    position: absolute;
-    top: 390px;
-    left: 125px;
-
-    font-size: 22px;
-    z-index: 2;
-}
-
-.btm__intro{
-    position: relative;
-    top:530px;
-    left:0;
-    z-index: 2;
- }
-
-.btm__left{
-    position:absolute;
-    top: 20px;
-    left:0 ;
-
-     vertical-align: top; 
-   
-    border: 1px solid #FF00C7;
-     padding: 10px 20px 10px 20px;
-     border-radius: 15px;
-    
-    background-color: #FF00C7;
-    
-    text-decoration: none;
-    color:#fff;
-    margin: 0 auto 16px 120px;
-
-    z-index: 2;
-
- }
-
-.btm__right{
-    position:absolute;
-    top:20px;
-    left: 200px ;
-
-     vertical-align: top; 
-   
-    border: 1px solid #fff;
-     padding: 10px 24px 10px 24px;
-     border-radius: 15px;
-
-    
-    text-decoration: none;
-    color:#fff;
-    margin: 0 auto 16px 140px;
-    
-    z-index: 2;
- }
 
 /*GroupCompany*
 
